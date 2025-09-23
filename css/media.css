@@ -41,6 +41,13 @@
   .box2 {
     width: 400px;
   }
+  .end img {
+    display: none;
+  
+  }
+  .end {
+      justify-content: center;
+  }
 }
 
 @media (max-width: 767.98px) {

@@ -367,12 +367,14 @@ justify-content: space-around;
   margin: 0 20px 20px 0;
   line-height: 1.7;
   width: 755px;
+  width: fit-content;
 }
 
 .it2{
   margin: 0 20px 10px 0;
   line-height: 1.7;
   width: 755px;
+  width: fit-content;
 }
 
 .box2 {
@@ -383,4 +385,12 @@ justify-content: space-around;
   margin: 20px 0 20px;
   background-color: transparent;
   color: white;
+}
+
+.end {
+  justify-content: end;
+}
+.end img {
+  width: 590px;
+  padding-left: 90px;
 }
