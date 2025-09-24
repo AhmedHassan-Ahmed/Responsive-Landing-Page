@@ -432,6 +432,9 @@ footer {
   margin-top: 150px;
   gap: 100px;
 }
+.discord {
+  margin: 20px 0;
+}
 
 .column {
   display: flex;
@@ -444,6 +447,3 @@ h3 {
   margin-block-end: 0.9em;
 }
 
-.discord {
-  margin: 20px 0;
-}
