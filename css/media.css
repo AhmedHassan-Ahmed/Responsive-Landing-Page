@@ -14,9 +14,32 @@
   nav {
     display: none;
   }
+  ul li {
+    margin: 50px;
+    display: inline-block;
+    border: 1px solid;
+    border-color: transparent transparent var(--secondrayColor) transparent;
+  
+  }
+  .fa-xmark {
+ display: block;
+ position: absolute;
+ top: 0;
+ right:  0;
+}
   ul {
     display: flex;
+    position: relative;
+    width: 609px !important;
+    padding: 0;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    background-color: var(--secondrayColor);
+    margin: auto;
+    width: min-content;
     flex-direction: column;
+    margin-top: 36px;
   }
   .fa-bars {
     display: block;
@@ -48,6 +71,12 @@
   .end {
       justify-content: center;
   }
+  .feedback2{
+    flex-direction: column;
+  }
+  footer {
+        height: 1750px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -99,5 +128,20 @@
   }
   .it {
     width: 340px;
+    margin-left: auto;
+  }
+  .it2 {
+    margin-left: 50px;
+  }
+  ul {
+     width: 230px !important;
+  }
+  .fa-bars {
+    display: block;
+    margin: 0 5px 0 10px;
+  }
+  .feedback2 {
+    padding: 64px;
+    height: 220px;
   }
 }

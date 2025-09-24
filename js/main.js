@@ -55,7 +55,7 @@ window.onscroll = function () {
 };
 
 const light = document.querySelector(".fa-circle-half-stroke");
-
+const path = document.querySelector("header svg path");
 light.onclick = function () {
   const Dark =
     getComputedStyle(document.documentElement).getPropertyValue(
@@ -67,11 +67,13 @@ light.onclick = function () {
     document.documentElement.style.setProperty("--secondrayColor", "#171717");
     document.querySelector("header").style.boxShadow =
       "1px 4px 38px -4px rgb(255 255 255 / 20%)";
+    path.setAttribute("fill", "#ffffff");
   } else {
     document.documentElement.style.setProperty("--mainColor", "#171717");
     document.documentElement.style.setProperty("--secondrayColor", "#ffffff");
     document.querySelector("header").style.boxShadow =
       "1px 4px 38px -4px #00000031";
+    path.setAttribute("fill", "#171717");
   }
 };
 
@@ -81,5 +83,11 @@ const fa = document.querySelector(".fa-bars");
 
 fa.onclick = function () {
   nav.style.display = "block";
-ul.style.display='block'
+  ul.style.display = "block";
+};
+
+const fa2 = document.querySelector(".fa-xmark");
+
+fa2.onclick = function () {
+  ul.style.display = "none";
 };
