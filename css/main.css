@@ -357,8 +357,8 @@ button {
   border-radius: 10px;
   height: 513px;
   color: white;
-  gap: 20px;
-  justify-content: space-around;
+  
+  justify-content: center;
 }
 
 .feedback2 {
@@ -413,7 +413,7 @@ button {
 }
 
 .end {
-  justify-content: space-around;
+  justify-content: center;
 }
 .end img {
   width: 590px;
@@ -442,4 +442,8 @@ h3 {
   text-align: center;
   margin-block-start: 0.9em;
   margin-block-end: 0.9em;
+}
+
+.discord {
+  margin: 20px 0;
 }
