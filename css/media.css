@@ -24,7 +24,7 @@
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 25px;
   }
   ul {
     display: flex;
@@ -143,6 +143,6 @@
   }
   .feedback2 {
     padding: 64px;
-    height: 220px;
+    height: 270px;
   }
 }

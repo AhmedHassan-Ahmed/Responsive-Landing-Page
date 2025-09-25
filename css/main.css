@@ -104,7 +104,7 @@ input {
 }
 
 .sign {
-  width: 70px;
+  width: 90px;
   height: 33px;
   color: var(--mainColor);
   background-color: var(--secondrayColor);
